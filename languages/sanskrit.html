@@ -3,28 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>梵語筆記</title>
-    <link rel="stylesheet" href="../styles.css">
+    <title>梵語學習筆記</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            margin-top: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        audio, video {
+            display: block;
+            margin: 20px 0;
+            max-width: 100%;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>梵語筆記</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">回到首頁</a></li>
-            </ul>
-        </nav>
+        <h1>梵語學習筆記</h1>
     </header>
     <main>
+        <!-- 語音系統 -->
         <section>
-            <h2>語音</h2>
-            <p>梵語的語音系統詳細介紹……</p>
+            <h2>梵語語音系統</h2>
+            <p>梵語的發音系統非常豐富，有多種元音和輔音。以下是一些發音示範：</p>
+            <audio controls>
+                <source src="assets/audio/sanskrit-vowels.mp3" type="audio/mpeg">
+                您的瀏覽器不支持播放此音頻。
+            </audio>
         </section>
+
+        <!-- 天城體字母 -->
         <section>
-            <h2>文字</h2>
-            <p>梵語的書寫系統和文字特點……</p>
+            <h2>天城體字母</h2>
+            <p>天城體（Devanagari）是梵語的標準書寫系統。以下是天城體字母表：</p>
+            <img src="assets/images/devanagari-alphabet.jpg" alt="天城體字母表">
         </section>
-        <!-- 其他內容如詞彙、語法等 -->
+
+        <!-- 常用詞 -->
+        <section>
+            <h2>常用梵語詞彙</h2>
+            <p>以下是一些常見的梵語詞彙及其中文解釋：</p>
+            <ul>
+                <li>धर्म (Dharma) - 法</li>
+                <li>कर्म (Karma) - 業</li>
+                <li>संस्कृत (Sanskrit) - 梵語</li>
+                <li>योग (Yoga) - 瑜伽</li>
+            </ul>
+            <p>更多詞彙可參考<a href="https://example.com">此處</a>。</p>
+        </section>
+
+        <!-- 語法模塊 -->
+        <section>
+            <h2>梵語語法模塊</h2>
+            <p>梵語語法非常複雜，以下是一段簡短的語法教學視頻：</p>
+            <video controls>
+                <source src="assets/videos/sanskrit-grammar.mp4" type="video/mp4">
+                您的瀏覽器不支持播放此視頻。
+            </video>
+        </section>
     </main>
 </body>
 </html>
